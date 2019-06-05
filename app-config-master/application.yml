@@ -1,0 +1,31 @@
+# TRACE, DEBUG, INFO, WARN, ERROR, FATAL, 'OFF' (quote OFF so it is interpreted as a String and not a boolean)
+logging:
+  level:
+    root: INFO 
+    io:
+      pivotal: DEBUG
+#    com:
+#      netflix: ERROR
+#        eureka: DEBUG #'OFF'
+#        discovery: DEBUG #'OFF'
+#      hystrix.AbstractCommand: DEBUG
+    org:
+      flywaydb: DEBUG
+        core.internal:
+          dbsupport.SqlScript: DEBUG # SQL only
+          command.DbMigrate: DEBUG
+
+management:
+  security:
+    enabled: false 
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration

@@ -1,0 +1,4 @@
+spring:
+  cloud:
+    services:
+      registrationMethod: direct # route is the default value, use this file to set to direct

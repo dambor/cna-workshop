@@ -1,0 +1,11 @@
+# Enable flyway
+  jpa:
+    hibernate:
+      ddl-auto: validate
+#      database: MYSQL
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+
+#  rabbitmq:
+#    addresses: ${vcap.services.cloud-bus.credentials.http_api_uris:http://localhost:5672}
