@@ -15,9 +15,9 @@ This demo comprises four repos:
 ```
 mkdir cna-demo
 cd cna-demo
-git clone https://github.com/ciberkleid/cna-demo-setup.git
-git clone https://github.com/ciberkleid/fortune-service.git
-git clone https://github.com/ciberkleid/greeting-ui.git
+git clone https://github.com/dambor/cna-demo-setup.git
+git clone https://github.com/dambor/fortune-service.git
+git clone https://github.com/dambor/greeting-ui.git
 ```
 
 2. Use the cf CLI to target the space to which you wish to deploy.
@@ -31,7 +31,7 @@ cd cna-demo-setup
 Answer the prompts from the script:
 
 * Provide the git address to back the Config Server
-    * The default value is https://github.com/ciberkleid/app-config. If you wish to set or change config values, fork this repo and enter the new value.
+    * The default value is https://github.com/dambor/app-config. If you wish to set or change config values, fork this repo and enter the new value.
 * Choose whether or not to leverage container-to-container networking
     * Note that at this time, you must set C2C=N in order to demo distributed tracing in PCF Metrics.
 * Choose whether or not to build the apps
