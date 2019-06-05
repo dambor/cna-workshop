@@ -3,11 +3,11 @@ Easy to set up cloud-native architecture demo for PCF. Consists of two apps, gre
 
 This section explains how to manually deploy this demo to Pivotal Cloud Foundry. (For instructions on how to set up a CI/CD pipeline for automated deployment of the demo, please see the [cloud-pipelines README](cloud-pipelines/README.md).)
 
-This demo comprises four repos:
-* https://github.com/ciberkleid/cna-demo-setup.git - Set up instructions and deployment scripts
-* https://github.com/ciberkleid/fortune-service.git - Backend service, returns fortunes
-* https://github.com/ciberkleid/greeting-ui.git - Front-end service, displays fortunes
-* https://github.com/ciberkleid/app-config - Config repo
+This demo comprises four folders:
+* cna-demo-setup - Set up instructions and deployment scripts
+* fortune-service.git - Backend service, returns fortunes
+* greeting-ui.git - Front-end service, displays fortunes
+* app-config - Config repo
 
 # instructions
 
