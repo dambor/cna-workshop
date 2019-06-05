@@ -6,4 +6,4 @@ Configuration for applications
 
 See setup and deployment instructions in:
 
-https://github.com/ciberkleid/cna-demo-setup
+https://github.com/dambor/cna-workshop/cna-demo-setup
