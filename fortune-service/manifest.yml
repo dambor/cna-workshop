@@ -1,6 +1,7 @@
 ---
 applications:
 - name: fortune-service
+  random-route: true
   timeout: 120
   path: ./target/fortune-service-0.0.1-SNAPSHOT.jar
   services:
